@@ -39,16 +39,16 @@ body::-webkit-scrollbar {
 
 .eins {
     position: absolute;
-    top: 90px;
-    left: 45%;
+    top: 150px;
+    left: 43%;
     z-index: 1;
     color: white;
 }
 
 .zwei {
     position: absolute;
-    top: 130px;
-    left: 45%;
+    top: 190px;
+    left: 43%;
     z-index: 1;
     color: white;
 }
@@ -157,7 +157,6 @@ a:hover {
 
 .Btns p {
     margin-bottom: -10px;
-    width: 80%;
     height: auto;
     background-color: black;
     border-top-left-radius: 20px;
@@ -167,14 +166,17 @@ a:hover {
 
 .Btn1 {
     width: 90%;
+    font-size: 20px;
 }
 
 .Btn2 {
     width: 80%;
+    font-size: 20px;
 }
 
 .Btn3 {
     width: 80%;
+    font-size: 20px;
 }
 
 .links {
@@ -209,6 +211,18 @@ a:hover {
         margin-top: 15px;
         transition: 2s ease;
     }
+    
+    .eins {
+        top: 120px;
+        left: 36%;
+        font-size: 30px;
+    }
+
+    .zwei {
+        top: 160px;
+        left: 38%;
+        font-size: 25px;
+    }
 
     button {
         height: 40px;
@@ -223,6 +237,18 @@ a:hover {
         border-bottom-right-radius: 50%;
     }
 
+    .Btn1 {
+        font-size: 15px;
+    }
+
+    .Btn2 {
+        font-size: 15px;
+    }
+
+    .Btn3 {
+        font-size: 15px;
+    }
+
     a {
         height: 38px;
         border-radius: 20px;
@@ -231,5 +257,23 @@ a:hover {
     a:hover {
         height: 58px;
         border-radius: 50px;
+    }
+}
+
+@media (max-width: 400px) {
+    .Btn1 {
+        font-size: 10px;
+    }
+
+    .Btn2 {
+        font-size: 10px;
+    }
+
+    .Btn3 {
+        font-size: 10px;
+    }
+
+    .links a{
+        font-size: 15px;
     }
 }
